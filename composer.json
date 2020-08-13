@@ -1,12 +1,17 @@
 {
     "name": "gheb/docusign-bundle",
     "description": "Symfony Bundle for electronic document signature with Docusign",
-    "homepage": "https://github.com/GregoireHebert/docusign-bundle",
+    "homepage": "https://github.com/jujote/docusign-bundle",
     "license": "MIT",
     "type": "symfony-bundle",
     "keywords": ["symfony","symfony-bundle","electronic signature", "docusign"],
     "readme": "README.md",
     "authors": [
+        {
+            "name": "Julien Jorry",
+            "email": "julien.jorry@gmail.com",
+            "role": "Developer"
+        },
         {
             "name": "Grégoire Hébert",
             "email": "gregoire@les-tilleuls.coop",
@@ -20,12 +25,12 @@
         }
     ],
     "support": {
-        "email": "gregoire+support-docusign@les-tilleuls.coop"
+        "email": "julien.jorry@gmail.com"
     },
     "require": {
         "php": "^7.2",
         "ext-SimpleXML": "*",
-        "docusign/esign-client": "^3.0",
+        "docusign/esign-client": "^5.3.0",
         "lcobucci/jwt": "^3.3.1",
         "league/flysystem": "^1.0.8",
         "psr/log": "^1.1",
