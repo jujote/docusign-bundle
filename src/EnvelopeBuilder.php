@@ -14,7 +14,7 @@ declare(strict_types=1);
 namespace DocusignBundle;
 
 use DocuSign\eSign\Api\EnvelopesApi;
-use DocuSign\eSign\ApiClient;
+use DocuSign\eSign\Client\ApiClient;
 use DocuSign\eSign\Model;
 use DocusignBundle\EnvelopeCreator\EnvelopeCreatorInterface;
 use League\Flysystem\FilesystemInterface;
